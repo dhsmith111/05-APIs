@@ -19,23 +19,23 @@ _____________________
 * Plaid 401k: $23631.98
 
 #### Income
-* Last Years Gross Income: $7,893
+* Last Years Before Tax Income: $7,893
 * Current Monthly Income: $500
-* Projected Yearly Income: $6085
+* Projected Before Tax Yearly Income: $7,389
 
 #### Expenses
 
 ##### Transaction Categories (last 90 days):
-![Budget Categories](/Images/budget_categories.png#center)
+   ![Budget Categories](/Images/budget_categories.png#center)
 
 ##### Sample Transactions
-![Sample Transactions](/Images/sample_transactions.png#center)
+   ![Sample Transactions](/Images/sample_transactions.png#center)
 
 ##### Expenses Per category
-![Spending Categories](/Images/spend_per_category.png#center)
+   ![Spending Categories](/Images/spend_per_category.png#center)
 
 ##### Expenses Per Month
-![Monthly Spending](/Images/spend_per_month.png#center)
+   ![Monthly Spending](/Images/spend_per_month.png#center)
 
 
 
@@ -47,41 +47,42 @@ At present, expenses far outpace income.  We recommend to first seek additional 
 ______________
 ### Retirement Planning
 
+#### Portfolio Allocation
+* 60% Stocks (SPY)
+* 40% Bonds (AGG)
+
+##### Sample Daily ROI
+   ![Sample Daily ROI](/Images/sample_daily_roi.png#center)
+
+##### Monty Carlo Simulations
+   ![500 Monte Carlo Simulations](/Images/500_monte_30year.png#center)
 
 
+##### Probability Distribution: Cumulative Returns 
+   ![Return Distributions](/Images/probability_plot_confidence90.png#center)
 
+#### Retirement Analysis
+* Expected cumulative returns at 30 years, 10th percentile: 119.02x
+* Expected cumulative returns at 30 years, 50th percentile: 199.08x
+* Expected cumulative returns at 30 years, 90th percentile: 320.56x
 
+Given an **initial $20,000** investment:
+* expected return at 10th percentile: $2,380,549.70
+* expected return at 50th percentile: $3,981,677.14
+* expected return at 90th percentile: $6,411,230.97
 
-###  .
-###  .
-###  .
-###  .
-###  .
-### Financial Report
+Given the current annual income and Based on 10th percentile return of $2,380,549.70, a 4% retirement withdrawl ($95,221.99) would far exceed the current projected annual income ($6,085).
 
-In this section, you will compile a financial report to demo your calculations to the Consumer App Team. The report should be written as a markdown file and include the following sections:
+**50% Increase:** Updating the initial investment from **$20,000 to $30,000** increases the 4% retirement income from $95,221.99 to $142,832.98.
+This is an additional $47,610.99.
 
-1. **Budget Analysis:** Summarize the transaction data from the budget analysis and include images for each chart and table produced.
+#### Optional Scenario Analysis
+##### Sample Cumulative Returns at 5%, 50%, an 95% quartiles
+   ![Return Distributions](/Images/sample5_50_95_quartiles.png#center)
 
-2. *Retirement Planning:* Summarize the retirement portfolio analysis and include the charts for the Monte Carlo simulation.
+##### Plot of Returns at 5%, 50%, an 95% quartiles  
+   ![Return Distributions](/Images/plot_cumulative5_50_95_quartiles.png#center)
 
-Include a Markdown Financial Planner report that summarizes your assumptions and findings and include this report in your GitHub repo.
+##### Plot of Returns in USD   
+   ![Return Distributions](/Images/plot_portfolio_cumulative5_50_95_quartiles.png#center)
 
-
-
-
-1. Sample transaction categories over the last 90 days include:
-    * Food and Drink
-        * Restaurants
-        * Coffee Shops
-        * Fast Food
-    * Transfers
-        * Credits
-        * Debits
-    * Travel
-        * Airline
-        * Taxi
-    * Shops
-        * Sporting Goods
-    * Recreation
-        * Gym and Fitness Centers
